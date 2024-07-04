@@ -1,6 +1,7 @@
 
 import Home from '../src/components/Home.jsx';
 import Landing from './components/Landing.jsx';
+import Schedule from './components/Schedule.jsx';
 function App() {
 
 
@@ -9,6 +10,7 @@ function App() {
       <div>
         <Home/>
         <Landing/>
+        <Schedule/>
        </div>
     </>
   )

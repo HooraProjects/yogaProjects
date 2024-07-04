@@ -8,6 +8,7 @@ import yogaPose6 from '../assets/images/yogapose6.jpg';
 
 export default function Landing() {
   return (
+    <>
     <div className='grid grid-cols-2 gap-4'>
       <div className='grid grid-cols-3 gap-4 '>
         <img src={yogaPose1} alt="Yoga Pose 1" className='w-full h-full object-cover p-6'/>
@@ -23,8 +24,16 @@ export default function Landing() {
       
         <p>Practice Yoga at a boutique studio that is<br/> passionate about welcoming people from all<br/> walks of life. It doesn't matter if you're a <br/>seasoned Yoga student or if you've never<br/> stepped foot on a mat; when you're at Yoga<br/> Landing, you're home.</p>
         <p className='mb-12'>We offer a balanced schedule of heated and<br/> room temperature practices in a variety of<br/> styles. It is our greatest hope to provide an<br/> opportunity for you to find the type of<br/> practice that benefits you the most.</p>
-        <button className='bg-lime-400  text-white h-16 w-1/2 p-2 mt-4'>Explore Your Options</button>
+        <button className='bg-lime-400  text-white h-16 w-1/2 p-2 mt-4 font-bold'>Explore Your Options</button>
       </div>
+      <div className='col-span-2 flex items-center justify-center mt-8 px-64 mb-8'>
+        <div className='flex-grow border-b-2 border-lime-400 mr-4'></div>
+        <p className='mx-4'>Yoga At Home</p>
+        <div className='flex-grow border-b-2 border-lime-400 ml-1'></div>
+      </div>
+      
     </div>
+    <p className='flex justify-center items-center  text-3xl font-light'>Take Yoga Landing with you anywhere!</p>
+    </>
   )
 }
